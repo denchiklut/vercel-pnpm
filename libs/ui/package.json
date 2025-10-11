@@ -1,0 +1,7 @@
+{
+  "name": "@libs/ui",
+  "main": "src/index.tsx",
+  "exports": {
+    ".": "./src/index.tsx"
+  }
+}
