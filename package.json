@@ -1,23 +1,23 @@
 {
   "name": "vercel-pnpm",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "cd apps/web && next dev",
+    "start": "cd apps/web && next build && next start",
+    "lint": "biome check --diagnostic-level=error --write --no-errors-on-unmatched"
   },
   "dependencies": {
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "vercel": "^48.2.9"
+    "vercel": "^48.2.9",
+    "@libs/ui": "workspace:*"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5",
-    "@libs/ui": "workspace:*"
+    "typescript": "^5"
   }
 }
