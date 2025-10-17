@@ -3,7 +3,7 @@
     "jsx": "preserve",
     "target": "esnext",
     "module": "esnext",
-    "lib": ["es2020", "dom", "dom.iterable", "esnext", "webworker"],
+    "lib": ["esnext", "dom", "dom.iterable", "webworker"],
     "moduleResolution": "bundler",
     "incremental": true,
     "esModuleInterop": true,

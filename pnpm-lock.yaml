@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@libs/config':
+        specifier: workspace:*
+        version: link:libs/config
       '@libs/ui':
         specifier: workspace:*
         version: link:libs/ui
@@ -41,6 +44,8 @@ importers:
         version: 5.9.3
 
   apps/web: {}
+
+  libs/config: {}
 
   libs/ui: {}
 

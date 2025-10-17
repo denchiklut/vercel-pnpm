@@ -1,0 +1,6 @@
+{
+  "name": "@libs/config",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

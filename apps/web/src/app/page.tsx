@@ -1,4 +1,4 @@
-import { Button } from "@libs/ui";
+import { Button } from '@libs/ui'
 
 export default function Home() {
   return (
@@ -6,5 +6,5 @@ export default function Home() {
       <p>hello world</p>
       <Button />
     </div>
-  );
+  )
 }

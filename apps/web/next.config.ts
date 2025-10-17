@@ -1,7 +1,3 @@
-import type { NextConfig } from "next";
+import { withNextConfig } from '@libs/config'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default withNextConfig({})
