@@ -1,5 +1,5 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
-export function withNextConfig(config: NextConfig = {}) {
-    return config
+export function withNextConfig(config: NextConfig = {}): NextConfig {
+  return config
 }
